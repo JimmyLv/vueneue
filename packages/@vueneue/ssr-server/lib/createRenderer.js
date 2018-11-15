@@ -8,7 +8,7 @@ module.exports = (bundle, options) => {
         max: 1000,
         maxAge: 1000 * 60 * 15,
       }),
-      runInNewContext: false,
+      runInNewContext: true,
     },
     options,
   );
